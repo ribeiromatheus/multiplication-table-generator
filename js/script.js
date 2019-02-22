@@ -12,7 +12,6 @@ function generate() {
             ans.innerHTML += parseFloat(txtNumber.value) + ' X ' + count + ' = ' + (parseFloat(txtNumber.value) * count) + '<br>';
             count++;
         }
-        count = 0;
     }
     return count;
 }
