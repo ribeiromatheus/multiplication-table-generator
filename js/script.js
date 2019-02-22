@@ -9,7 +9,7 @@ function generate() {
     let count = 0;
     if (!validate(txtNumber.value)) {
         while (count <= 10) {
-            ans.innerHTML += count + ' X ' + parseFloat(txtNumber.value) + ' = ' + (count * parseFloat(txtNumber.value)) + '<br>';
+            ans.innerHTML += parseFloat(txtNumber.value) + ' X ' + count + ' = ' + (parseFloat(txtNumber.value) * count) + '<br>';
             count++;
         }
         count = 0;
