@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+.container {
+    padding-top: 2%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(255, 153, 0);
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#ans {
+    margin-top: 2%;
+    text-align: center;
+    background-color: rgba(255, 153, 0, 0.71);
+    font-weight: bold;
+}
+
+#btnGenerate {
+    border: none;
+    outline-style: none;
+    background-color: transparent;
+    color: #fff;
+}
