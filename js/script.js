@@ -15,7 +15,7 @@ function onClick() {
     }
     return count;
 }
-
+//
 function validate(number) {
     let ret = false;
     if (number == '') ret = true;
