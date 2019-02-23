@@ -12,8 +12,17 @@
     <div class="container">
         <section>
             <h3 id="title" class="text-center">Gerador de Tabuada</h3>
-            <input type="number" id="txtNumber" class="form-control" min="0" placeholder="Tabuada do...">
-            <input type="submit" id="btnGenerate" value="Gerar tabuada">
+            <div class="form-group">
+                <div class="col-md-12">
+                    <input type="number" id="txtNumber" class="form-control" min="0" placeholder="Tabuada do...">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12">
+                    <input type="number" id="txtInterval" class="form-control" min="0" placeholder="Até o...">
+                </div>
+            </div>
+            <button id="btnGenerate">Gerar Tabuada</button>
             <div id="ans"></div>
         </section>
     </div>
