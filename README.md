@@ -1,5 +1,5 @@
-# Multplication Table Generator
-**It's a simple multplication table generator.**
+# Mulitplication Table Generator
+**It's a simple mulitplication table generator.**
 
 ![image](https://user-images.githubusercontent.com/41703972/59945547-56ffd200-943e-11e9-8dd3-a9d66cb7ce58.png)
 
