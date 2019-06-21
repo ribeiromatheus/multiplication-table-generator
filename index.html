@@ -6,25 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Gerador de Tabuada</title>
+    <title>Multiplication Table Generator</title>
 </head>
 <body>
     <div class="container">
         <section>
-            <h3 id="title" class="text-center">Gerador de Tabuada</h3>
-            <div class="form-group">
-                <div class="col-md-12">
-                    <input type="number" id="txtNumber" class="form-control" min="0" placeholder="Tabuada do...">
+            <h3 id="title" class="text-center">Multiplication Table Generator</h3>
+            <form onsubmit="return false">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtNumber" class="form-control" min="0" placeholder="Number times table. e.g: 9">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-md-12">
-                    <input type="number" id="txtInterval" class="form-control" min="0" max="100" placeholder="Até o...">
-                    <span class="text-danger small">O valor de intervalo máximo é 100, pois valores maiores podem travar seu navegador.</span>
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtInterval" class="form-control" min="0" max="100" placeholder="Range. e.g: which number should stop">
+                        <span class="text-danger small">The maximum value in the range is 100, as larger values ​​can crash your browser.</span>
+                    </div>
                 </div>
-            </div>
-            <button id="btnGenerate">Gerar Tabuada</button>
-            <div id="ans"></div>
+                <div id="generate" class="form-group">
+                    <div class="col-md-12">
+                        <input type="submit" id="btnGenerate" value="Generate Times Table">
+                    </div>
+                </div>
+                <div id="ans"></div>
+            </form>
         </section>
     </div>
     <script src="js/script.js"></script>
