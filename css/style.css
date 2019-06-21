@@ -27,8 +27,13 @@ section {
 }
 
 #btnGenerate {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(231, 109, 9);
     border: none;
-    outline-style: none;
-    background-color: transparent;
+    border-radius: 4px;
     color: #fff;
+    text-transform: uppercase;
 }
+
+.container > section > form > #generate { padding: 10px; }
